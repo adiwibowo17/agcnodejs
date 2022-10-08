@@ -1,6 +1,6 @@
 {
-  "name-web":"STACKOVERFLOW MASKODING",
-  "author":"MASKODING",
+  "name-web":"Info Terupdate",
+  "author":"terupdate",
   "remove-comment-html":true,
   "target":"https://m.tribunnews.com",
   "name-folder-sitemap":"sitemap",
@@ -20,14 +20,14 @@
   ],
   "costom-element-remove":[
     {
-      "target":"stackoverflow.com",
+      "target":"https://m.tribunnews.com",
       "element-remove-selector":[
         ".js-dismissable-hero",
         ".lazy-loading"
       ],
       "replace-string":[
         {
-          "target":"https://stackoverflow.com",
+          "target":"https://m.tribunnews.com",
           "replace":"${nameWeb}"
         }
       ]
